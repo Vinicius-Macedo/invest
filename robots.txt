@@ -1,0 +1,8 @@
+User-agent : *
+
+Allow: /servicos/design
+Allow: /servicos/suporte
+Allow: /servicos/cursos
+Allow: /portfolio
+Allow: /faq
+Allow: /orcamento

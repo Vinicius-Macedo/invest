@@ -1,0 +1,151 @@
+section#hero
+  .hero-container
+    img(src="assets/img/winvest-logo.png" alt="Logo da winvest educação financeira")
+    h1 A CENTRAL DE SOLUÇÕES PARA VOCE E SEUS INVESTIMENTOS
+    a(href="#") saiba mais
+section#cursos
+  h2.title-size.line-bottom-black CURSOS
+  p.desc Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id cursus metus aliquam.
+  .max-container-slider
+    .icons-slider-container
+      #icon-left.icon-container(style='transform: scaleX(-1)')
+        img.icon(src='assets/img/arrow.svg' alt='ilustração de seta apontando para o lado esquerdo')
+      #icon-right.icon-container
+        img.icon(src='assets/img/arrow.svg' alt='ilustração de seta apontando para o lado direito')
+    .slider-container
+      ul#slider-container.slider-ul
+        //- SLIDER ITEM 1
+        li.slider-li
+          figure.slider-img-container
+            img(src='assets/img/cursos/invest-cursos-1.png' alt='%%%' )
+          article
+            p.title-curso FORMAÇÕES DE INVESTIDORES
+            p.desc-curso Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id cursus metus aliquam.
+          .buttons-container
+            a.saiba-mais saiba mais
+            a.assinar assinar
+        //- SLIDER ITEM 2
+        li.slider-li
+          figure.slider-img-container
+            img(src='assets/img/cursos/invest-cursos-2.png' alt='%%%' )
+          article
+            p.title-curso FORMAÇÕES DE INVESTIDORES
+            p.desc-curso Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id cursus metus aliquam.
+          .buttons-container
+            a.saiba-mais saiba mais
+            a.assinar assinar
+        //- SLIDER ITEM 3
+        li.slider-li
+          figure.slider-img-container
+            img(src='assets/img/cursos/invest-cursos-3.png' alt='%%%' )
+          article
+            p.title-curso FORMAÇÕES DE INVESTIDORES
+            p.desc-curso Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id cursus metus aliquam.
+          .buttons-container
+            a.saiba-mais saiba mais
+            a.assinar assinar
+        //- SLIDER ITEM 4
+        li.slider-li
+          figure.slider-img-container
+            img(src='assets/img/cursos/invest-cursos-4.png' alt='%%%' )
+          article
+            p.title-curso FORMAÇÕES DE INVESTIDORES
+            p.desc-curso Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id cursus metus aliquam.
+          .buttons-container
+            a.saiba-mais saiba mais
+            a.assinar assinar
+section#carteiras
+  .container-conteudo
+    h2.title-size.line-bottom-white CARTEIRAS
+    p.desc Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id cursus metus aliquam.
+    .max-container-slider
+      .icons-slider-container
+        #icon-left2.icon-container
+          img.icon(src='assets/img/arrow-white.svg' alt='ilustração de seta apontando para o lado esquerdo')
+        #icon-right2.icon-container(style='transform: scaleX(-1)')
+          img.icon(src='assets/img/arrow-white.svg' alt='ilustração de seta apontando para o lado direito')
+      .slider-container
+        ul#slider-container2.slider-ul
+          //- SLIDER ITEM 1
+          - for (var i = 0; i < 5; ++i) {
+          li.slider-li
+            .carteira-container
+              img(src='assets/img/carteiras/invest-carteira-1.png' alt='%%%' )
+              article 
+                p.desc-carteira Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id cursus metus aliquam.
+                .buttons-container
+                  a.saiba-mais saiba mais
+                  a.assinar assinar
+          - }
+section#sobre-nos
+    img.winvest-logo(src="assets/img/winvest-logo.png" alt="Logo da winvest educação financeira")
+    .text-container
+      img(src="assets/img/winvest-image.png" alt="Logo da winvest educação financeira")
+      p.desc-sobre A WINVEST foi criada com o propósito de levar educação financeira para todos os níveis de investidores e que oferecerá cursos e ferramentas capazes de auxiliar na organização da vida financeira.<br><br>Afinal, no mundo de hoje ter consciência sobre os gastos e conhecimento sobre como valorizar o seu dinheiro, é a garantia de um presente e um futuro mais tranquilo e confortável.
+section#equipe
+  .background-container
+    h2.title-size NOSSA EQUIPE
+    .max-container-slider
+      .icons-slider-container
+        #icon-left3.icon-container(style='transform: scaleX(-1)')
+          img.icon(src='assets/img/arrow.svg' alt='ilustração de seta apontando para o lado esquerdo')
+        #icon-right3.icon-container
+          img.icon(src='assets/img/arrow.svg' alt='ilustração de seta apontando para o lado direito')
+      .slider-container
+        ul#slider-container3.slider-ul
+          //- SLIDER ITEM 1
+          - for (var i = 0; i < 3; ++i) {
+          li.slider-li
+            .background-white
+              img(src="assets/img/imagem-participante.png", alt="alts")
+              article
+                p.title-curso NOME
+                p.desc-curso Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id cursus metus aliquam.
+            
+          - }
+           li.slider-li
+            .background-white
+              img(src="assets/img/imagem-participante.png", alt="alts")
+              article
+                p.title-curso NOME
+                p.desc-curso Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id cursus metus aliquam.
+section#faq
+  .dark-background
+    h2.faq-title DÚVIDAS FREQUENTES
+    ul.faq-lista
+      li.faq-item
+        .faq-container
+          h3.nome Tenho que pagar para marcar a reunião?
+          .container-mais
+            .mais
+        p.desc NÃO, a reunião é totalmente gratuita.<br><br>
+      li.faq-item
+        .faq-container
+          h3.nome Como vou chegar até o local da reunião?
+          .container-mais
+            .mais
+        p.desc A reunião é totalmente online, sendo de onde estiver basta ter acesso a internet.<br><br>
+      li.faq-item
+        .faq-container
+          h3.nome E se após a reunião eu não quiser fechar a parceria ?
+          .container-mais
+            .mais
+        p.desc Não é obrigatório contratar por ter ido a reunião. É totalmente sem compromisso.<br><br>
+      li.faq-item
+        .faq-container
+          h3.nome Quais formas de pagamento são aceitas ?
+          .container-mais
+            .mais
+        p.desc Mais variadas formas.<br><br>
+      li.faq-item
+        .faq-container
+          h3.nome Por que tenho marcar uma reunião ?
+          .container-mais
+            .mais
+        p.desc Por que dessa forma você sai entendendo de marketing digital com uma outra visão do que ele pode fazer pelo seu negócio, mesmo que no momento você não possa contratar.<br><br>
+      li.faq-item
+        .faq-container
+          h3.nome Quanto tempo dura a reunião ? Vai gastar muito meu tempo ?
+          .container-mais
+            .mais
+        p.desc A reunião pode ser marcada nos mais flexíveis horários, podendo durar a partir de 25 minutos no mínimo.<br><br>
